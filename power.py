@@ -4,3 +4,4 @@ def calculate_power(x,y):
   y=int(input("enter the value of y:"))
 
 print("result:",calculate_power(x,y))
+
