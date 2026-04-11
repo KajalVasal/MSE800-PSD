@@ -4,10 +4,10 @@
 
    ## Table of Contents
 
-   -[Installation](#installation)
-   -[Usage]_(#usage)
-   -[Contributing]_(#contributing)
-   -[license]_(#license)
+   - [Installation](#installation)
+   - [Usage](#usage)
+   - [Contributing](#contributing)
+   - [license](#license)
 
    ## Installation
 
