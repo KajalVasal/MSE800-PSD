@@ -1,13 +1,17 @@
 
-def calculate_power(x,y):
-  return x**y
+def calculate_power(base,exponent):
+    return base ** exponent
 
-if_name_ =="main":
-  x=int(input("enter the base: "))
-  y=int(input("enter the exponent: "))
-  
-  result= calculate_power(x,y)
-  
-print(f"{x} raised to the power of {y} is:{result}")
+def main():
+    print("power calculate program")
+    
+    base = float(input("enter the base: "))
+    exponent = float(input("enter the exponent: "))
+    
+    result = calculate_power(base,exponent)
+    print(f"{base} raised to the power of {exponent} is: {result}")
+    if __name__ =="__main__":
+        main()
+
 
 
