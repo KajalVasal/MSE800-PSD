@@ -1,7 +1,8 @@
 # Week 1- Activity 3(Calculate Power)
 
-## Description 
-This project calculates the power of number 
+## Description
+
+This project calculates the power of number
 
 Input:
 
