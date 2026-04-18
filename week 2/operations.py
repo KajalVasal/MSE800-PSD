@@ -1,10 +1,14 @@
-def calculate_basic(a, b, c):
+# Mathematical operations
+a = complex(input("enter first complex number:"))
+b = complex(input("enter second complex number:"))
+
+def calculate_basic(a, b, op):
     
-    if c == '+':
+    if op == '+':
         return a + b
-    elif c == '-':
+    elif op == '-':
         return a - b
-    elif c == '*':
+    elif op == '*':
         return a * b
     
     else:
@@ -12,12 +16,10 @@ def calculate_basic(a, b, c):
 
 
 def main():
-    c1 = complex(6, 3) # 6 + 3j
-    c2 = complex(2, 1) # 2 + 1j
-    print(f"{c1} + {c2} = {calculate_basic(c1, c2, '+')}")
-    print(f"{c1} - {c2} = {calculate_basic(c1, c2, '-')}")
-    print(f"{c1} * {c2} = {calculate_basic(c1, c2, '*')}")
+    
+    print(f"{a} + {b} = {calculate_basic(a, b, '+')}")
+    print(f"{a} - {b} = {calculate_basic(a, b, '-')}")
+    print(f"{a} * {b} = {calculate_basic(a, b, '*')}")
  
-
 if __name__ == "__main__":
     main()
