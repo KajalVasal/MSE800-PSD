@@ -3,11 +3,10 @@ A simple Python project that demonstrates role-based access control using a deco
 
 ## Project Structure
 zoo-admin-login/
-│
-├── main.py       # Main program with login and menu
-├── admin.py      # User data and authentication logic  
-├── decorator.py  # Custom decorator for admin access control
-└── README.md     # Project documentation
+**main.py**      # Main program with login and menu
+**admin.py**     # User data and authentication logic  
+**decorator.py**  # Custom decorator for admin access control
+**README.md**     # Project documentation
 
 ## Functionality
 1. **Login**: Users enter username and password to log in.
@@ -27,7 +26,7 @@ The `admin_required` decorator in `decorator.py` wraps any function that should 
 This keeps access logic separate from business logic.
 
 ## How to Run
-1. Open terminal in the project folder.
+1. Open VSCode.
 2. Run:
    python main.py
 
