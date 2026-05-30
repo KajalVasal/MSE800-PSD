@@ -1,5 +1,5 @@
 """
-Activity 8 - Activity 3: Single Inheritance
+Single Inheritance
 Air New Zealand Domestic Flight System
 Demonstrates: Parent class, Child class, inheritance, method overriding
 """
